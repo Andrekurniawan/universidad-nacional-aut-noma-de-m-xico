@@ -565,6 +565,55 @@ void display(void)
     glVertex3f(280, 100, -300);
     glEnd();
 
+    //papan iklan
+
+    glBegin(GL_LINES);
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(-350, 100, 300);
+    glVertex3f(-350, 0, 300);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(-400, 200, 300);
+    glVertex3f(-300, 200, 300);
+    glVertex3f(-300, 100, 300);
+    glVertex3f(-400, 100, 300);
+    glEnd();
+
+    //tempat sampah
+
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(300, 60, 100);
+    glVertex3f(250, 60, 100);
+    glVertex3f(250, 0, 100);
+    glVertex3f(300, 0, 100);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(300, 60, 50);
+    glVertex3f(250, 60, 50);
+    glVertex3f(250, 0, 50);
+    glVertex3f(300, 0, 50);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(250, 60, 50);
+    glVertex3f(250, 60, 100);
+    glVertex3f(250, 0, 100);
+    glVertex3f(250, 0, 50);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(300, 60, 100);
+    glVertex3f(300, 60, 50);
+    glVertex3f(300, 0, 50);
+    glVertex3f(300, 0, 100);
+    glEnd();
 
     glPopMatrix();
     glutSwapBuffers();
