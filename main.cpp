@@ -25,7 +25,7 @@ int main(int argc, char** argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(800, 600);
     glutInitWindowPosition(40, 40);
-    glutCreateWindow("City University of Hong Kong");
+    glutCreateWindow("Universidad Nacional Autonoma de Mexico");
     init();
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
