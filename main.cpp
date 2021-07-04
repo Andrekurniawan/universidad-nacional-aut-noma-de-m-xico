@@ -341,6 +341,68 @@ void display(void)
     glVertex3f(100, 0, 130);
     glEnd();
 
+    //Pillar Pintu
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.93, 0.93, 0.93);
+    glVertex3f(-100, 100, 250);
+    glVertex3f(-80, 100, 230);
+    glVertex3f(-80, 0, 230);
+    glVertex3f(-100, 0, 250);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.93, 0.93, 0.93);
+    glVertex3f(100, 100, 250);
+    glVertex3f(80, 100, 230);
+    glVertex3f(80, 0, 230);
+    glVertex3f(100, 0, 250);
+    glEnd();
+
+    //Jendela Depan
+
+    glBegin(GL_LINES);//garis1
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(100, 200, 130);
+    glVertex3f(100, 0, 130);
+    glEnd();
+
+    glBegin(GL_LINES);//garis2
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(-100, 200, 130);
+    glVertex3f(-100, 0, 130);
+    glEnd();
+
+    glBegin(GL_LINES);//garis3
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(-200, 200, 130);
+    glVertex3f(-200, 0, 130);
+    glEnd();
+
+    glBegin(GL_LINES);//garis4
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(-300, 200, 130);
+    glVertex3f(-300, 0, 130);
+    glEnd();
+
+    glBegin(GL_LINES);//garis5
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(200, 200, 130);
+    glVertex3f(200, 0, 130);
+    glEnd();
+
+    glBegin(GL_LINES);//garis6
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(300, 200, 130);
+    glVertex3f(300, 0, 130);
+    glEnd();
+
+    glBegin(GL_LINES);//garis7
+    glColor3f(0.2, 0.2, 0.2);
+    glVertex3f(400, 80, 130);
+    glVertex3f(-400, 80, 130);
+    glEnd();
+
     glPopMatrix();
     glutSwapBuffers();
 }
