@@ -619,6 +619,7 @@ void display(void)
     glutSwapBuffers();
 }
 
+
 void mouseMove(int x, int y) {
     if (mousedown) {
         yrot = x - xdiff;
